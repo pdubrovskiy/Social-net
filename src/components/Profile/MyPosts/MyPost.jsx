@@ -14,13 +14,10 @@ const MyPost = React.memo((props) => {
         props.addPost(values.newPostText);
     }
 
-
-
-
     return (
         <div className={classes.postBlock}>
-                <h3>My posts</h3>
-                <ReduxNewPostForm onSubmit={addPost} addPost={props.addPost}/>
+                <h3 className={classes.h3}>My posts</h3>
+                <ReduxNewPostForm onSubmit={addPost} addPost={props.addPost} className={classes.input}/>
             <div className={classes.container_posts}>
                 <div className={classes.posts}>
                     {postElements}

@@ -37,3 +37,32 @@
     justify-content: center;
     font-size: 18px;
 }
+
+.button_login{
+    height: 30px;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #0C4195;
+    border: 1px solid #0C4195;
+    transition: 0.5s;
+}
+
+.button_login:hover{
+    background-color: #0C4195;
+    color: #ffffff;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.status{
+    font-size: 10px;
+    color: #ababab;
+}

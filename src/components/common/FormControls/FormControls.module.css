@@ -4,3 +4,10 @@
     border: 2px solid red;
     outline: none;
 }
+
+.form_control input{
+    outline: none;
+    background-color: #ffffff;
+    height: 25px;
+    margin: 5px;
+}

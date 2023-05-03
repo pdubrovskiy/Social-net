@@ -1,6 +1,7 @@
 import { connect } from "react-redux";
 import { Navigate } from "react-router-dom";
 import { loginUser } from "../../redux/auth-reducer";
+import classes from './Login.module.css';
 import ReduxLoginForm from "./LoginForm/LoginForm";
 
 const Login = (props) => {
@@ -14,8 +15,8 @@ const Login = (props) => {
     }
 
     return (
-        <div>
-            <h1>LOGIN</h1>
+        <div className={classes.login_wrapper}>
+            <h1 className={classes.login}>LOGIN</h1>
             <ReduxLoginForm onSubmit={onSubmit}/>
         </div>
     );

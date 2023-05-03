@@ -7,7 +7,7 @@ const Post = (props) => {
             <img src='https://i.ibb.co/Ntw7Lkv/iconuser.png' alt ="x"/>
             {props.message ? props.message : "default"}
             <div>
-                <span>{props.likesCount ? props.likesCount : 0} like</span>
+                <span className={s.likes}>{props.likesCount ? props.likesCount : 0} likes</span>
             </div>
         </div>
     );

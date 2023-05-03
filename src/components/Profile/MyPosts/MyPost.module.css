@@ -2,9 +2,9 @@
     outline: none;
     height: 40px;
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
     background: #E9F0F8;
-    border-radius: 16px;
+    border-radius: 10px;
     border: 2px solid #8AA3C9;
     width: 700px;
 }
@@ -43,4 +43,14 @@
 .button_addPost:hover{
     border: 2px solid #0C4195;
     color: #0C4195;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+}
+
+.h3{
+    padding: 0 5px;
+    font-size: 25px;
 }

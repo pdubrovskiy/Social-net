@@ -15,4 +15,18 @@
 }
 .newMessage button{
     width: 100px;
+    background-color: #ffffff;
+    border: 2px solid #0C4195;
+    color: #0C4195;
+    border-radius: 16px;
+    margin-left: 20px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+}
+
+.textarea{
+    height: 40px;
 }

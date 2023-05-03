@@ -1,7 +1,7 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { maxLengthCreator, minLengthCreator, required } from '../../../utils/validators/validators';
-import { Textarea } from '../../common/FormControls/FormControls';
+import { Input, Textarea } from '../../common/FormControls/FormControls';
 import Message from './Message/Message';
 import classes from './Messages.module.css'
 
@@ -30,8 +30,8 @@ const minLength3 = minLengthCreator(3);
 const newMessageForm = (props) => {
 
     return (
-        <form onSubmit={props.handleSubmit}>
-            <Field component={Textarea} name="newMessageText" placeholder="message" validate={[required, minLength3, maxLength30]}/>
+        <form onSubmit={props.handleSubmit} className={classes.form}>
+            <Field component={Textarea} name="newMessageText" placeholder="message" validate={[required, minLength3, maxLength30]} className={classes.textarea}/>
             <button>new message</button>
         </form>
     );
