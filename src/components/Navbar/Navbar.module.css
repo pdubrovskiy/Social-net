@@ -1,0 +1,26 @@
+.nav_ul{
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    margin-left: 10px;
+}
+
+.item{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.item a.active{
+    color: #0C4195;
+    padding: 5px;
+    text-decoration: none;
+}

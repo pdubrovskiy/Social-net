@@ -1,0 +1,15 @@
+.dialog {
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}

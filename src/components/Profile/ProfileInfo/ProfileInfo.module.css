@@ -1,0 +1,15 @@
+.background img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px 16px 0 0;
+}
+
+.acountInfo{
+    padding: 10px;
+}
+
+.background_picture{
+    border-radius: 16px 16px 0 0;
+}

@@ -1,0 +1,24 @@
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    "header header"
+    "nav content";
+  grid-gap: 35px 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-wrapper-content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;  
+}
+
+button{
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
